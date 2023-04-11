@@ -365,7 +365,7 @@ void Gunner_2D::DrawScene(glm::mat3 visMatrix)
     //health bar
     modelMatrix = glm::mat3(1);
     modelMatrix *= visMatrix;
-    modelMatrix *= transform2D::Translate(720, 550);
+    modelMatrix *= transform2D::Translate(620, 550);
     modelMatrix *= transform2D::Translate(cx, cy);
     if (health > 0)
         modelMatrix *= transform2D::Scale(health, 20);
@@ -373,7 +373,7 @@ void Gunner_2D::DrawScene(glm::mat3 visMatrix)
 
     modelMatrix = glm::mat3(1);
     modelMatrix *= visMatrix;
-    modelMatrix *= transform2D::Translate(715, 545);
+    modelMatrix *= transform2D::Translate(615, 545);
     modelMatrix *= transform2D::Translate(cx, cy);
     modelMatrix *= transform2D::Scale(110, 30);
     RenderMesh2D(meshes["behindHealthBar"], shaders["VertexColor"], modelMatrix);
@@ -767,7 +767,7 @@ void Gunner_2D::Update(float deltaTimeSeconds)
     logicSpace.width = 600;
     logicSpace.height = 600;
 
-    logicSpaceMap.x = -5800;
+    logicSpaceMap.x = -5000;
     logicSpaceMap.y = -200;
     logicSpaceMap.width = 5000;
     logicSpaceMap.height = 5000;

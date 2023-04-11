@@ -59,7 +59,7 @@ namespace m1
         float scaleHuman = 0.25f;
         float angularStep = 0, angularStep2 = 0;
         float health = 100;
-        float enemyX = 0, enemyY = 0;
+        float enemyX = 450, enemyY = 450;
         float pozX, pozY;
         float healX, healY;
         int score = 0;
