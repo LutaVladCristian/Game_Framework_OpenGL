@@ -169,3 +169,9 @@ for the full license texts and legal notices.
 [ref-cmake-dl]:         https://github.com/Kitware/CMake/releases/
 [ref-cmake-build]:      https://github.com/Kitware/CMake#building-cmake-from-scratch
 [ref-mit]:              https://opensource.org/licenses/MIT
+
+
+## Comand in order to start the application
+For PowerShell/CMD (.bat script):
+1. .\build_and_run.bat
+2. .\build_and_run.bat --clean
