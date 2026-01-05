@@ -3,3 +3,7 @@ build/
 /**/.vs
 /**/obj
 components_hidden
+.cursor
+.vscode
+.idea
+.env

@@ -4,13 +4,8 @@
 #include "core/engine.h"
 #include "components/simple_scene.h"
 
-#if defined(WITH_LAB_M1)
-#   include "game_engine/lab_list.h"
-#endif
-
-
-#if defined(WITH_LAB_EXTRA)
-#   include "lab_extra/lab_list.h"
+#if defined(WITH_GAME_ENGINE)
+#   include "game_engine/game_list.h"
 #endif
 
 
