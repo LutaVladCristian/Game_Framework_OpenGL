@@ -1,10 +1,10 @@
-#include "lab_m1/Gunner_2D/gunner_2D.h"
+#include "game_engine/Gunner_2D/gunner_2D.h"
 
 #include <vector>
 #include <iostream>
 
-#include "lab_m1/Gunner_2D/transform2D.h"
-#include "lab_m1/Gunner_2D/object_2D.h"
+#include "game_engine/Gunner_2D/transform2D.h"
+#include "game_engine/Gunner_2D/object_2D.h"
 
 using namespace std;
 using namespace m1;

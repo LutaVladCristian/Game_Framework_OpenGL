@@ -1,4 +1,4 @@
-#include "lab_m1/Maze_Runner_3D/maze_runner.h"
+#include "game_engine/Maze_Runner_3D/maze_runner.h"
 
 
 using namespace std;

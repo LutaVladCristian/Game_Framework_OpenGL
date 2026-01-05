@@ -5,7 +5,7 @@
 #include "components/simple_scene.h"
 
 #if defined(WITH_LAB_M1)
-#   include "lab_m1/lab_list.h"
+#   include "game_engine/lab_list.h"
 #endif
 
 

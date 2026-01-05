@@ -1,8 +1,8 @@
 #pragma once
 
 #include "components/simple_scene.h"
-#include "lab_m1/Maze_Runner_3D/lab_camera.h"
-#include "lab_m1/Maze_Runner_3D/transform3D.h"
+#include "game_engine/Maze_Runner_3D/lab_camera.h"
+#include "game_engine/Maze_Runner_3D/transform3D.h"
 #include <stack>
 #include <vector>
 #include <string>
